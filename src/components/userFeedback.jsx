@@ -23,8 +23,8 @@ const feedbacks = [
 
 function User() {
     return (
-        <div className="bg-white py-12">
-            <h2 className="text-3xl font-bold text-center mb-8">User Feedback</h2>
+        <div className="py-12"   style={{ backgroundColor: "#3d003d"}}>
+            <h2 className="text-white text-3xl font-bold text-center mb-8">User Feedback</h2>
             <div className="flex justify-center gap-6">
                 {feedbacks.map((user, index) => (
                     <div key={index} className="bg-white shadow-lg p-6 rounded-lg text-center max-w-sm">

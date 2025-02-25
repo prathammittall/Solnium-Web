@@ -5,8 +5,8 @@ function Navbar() {
     return (
         <>
             <nav>
-                <ul className="absolute w-full h-14 navbar text-[20px] flex justify-between items-center gap-10 text-white">
-                    <img src="./Logo-full.png" alt="" className='w-[150px]' />
+                <ul className="absolute w-full h-22 navbar text-[20px] flex justify-between items-center gap-10 text-white">
+                    <img src="./Logo-full.png" alt="" className='w-[300px]' />
                     <div className='w-[60vw] gap-10 flex'>
                         <button><Link to="/">Home</Link></button>
                         <button><Link to="/contact">Contact</Link></button>

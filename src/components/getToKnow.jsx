@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function SolosInfoSection() {
   return (
-    <section className="bg-white text-center py-12 px-6 mt-42">
-      <h2 className="text-3xl font-bold text-gray-900">Get to know SOLOS</h2>
-      <p className="text-gray-700 max-w-2xl mx-auto mt-4">
+    <section className="text-center py-12 px-6 mt-35"  style={{ backgroundColor: "#3d003d"}}>
+      <h2 className="text-3xl font-bold text-white">Get to know SOLOS</h2>
+      <p className="text-gray-300 max-w-2xl mx-auto mt-4">
         At SOLOS, we focus on delivering an innovative AI chatbot experience. Our platform features a
         captivating dark theme and dynamic violet gradients, making every chat visually appealing and enjoyable.
         Join us in exploring the world of AI, where creativity meets functionality.

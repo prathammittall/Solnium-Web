@@ -23,8 +23,7 @@ const ContactSection = () => {
         <div className="flex flex-col items-center">
           <FaClock className="text-green-400 text-3xl mb-2" />
           <h3 className="text-lg font-semibold">Working hours</h3>
-          <p>Open: 12:00 pm</p>
-          <p>Closed: 22:00 pm</p>
+          <p>24 hours Support</p>
         </div>
       </div>
 
@@ -32,10 +31,10 @@ const ContactSection = () => {
       <div className="flex justify-center items-center gap-4">
         <input 
           type="email" 
-          placeholder="Enter your email" 
-          className="px-4 py-2 rounded-lg text-white w-64 border-1 border-white" 
+          placeholder="Enter your email"
+          className="email px-4 py-2 rounded-lg text-white w-64 border-1 border-white"
         />
-        <button className="bg-green-600 px-6 py-2 rounded-lg cursor-pointer">Subscribe</button>
+        <button className="bg-green-600 px-6 py-2 rounded-lg">Subscribe</button>
       </div>
 
       <div className="flex justify-center gap-6 text-2xl mt-8">
